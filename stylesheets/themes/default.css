@@ -1,0 +1,29 @@
+body {
+  background-color: #EEE;
+}
+
+#header {
+  background-color: #333;
+}
+
+#nav {
+  font-family: Verdana, sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+#nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#content {
+  background-color: #FFF;
+}
+
+#footer {
+  border-top-color: #CCC;
+  border-top-style: solid;
+  font-size: 0.8em;
+  color: #333;
+}
