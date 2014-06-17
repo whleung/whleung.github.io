@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="projects top clearfix">
+  {% for project in site.data.projects %}
+  <div class="project-item left">
+    <img src="/images/projects/{{ project.image }}" />
+    <a href="{{ project.url }}">{{ project.name }}</a>
+    <span>{{ project.description }}</span>
+  </div>
+  {% endfor %}
+</div>

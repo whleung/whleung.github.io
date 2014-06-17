@@ -1,0 +1,5 @@
+- name:        Waterbear
+  image:       waterbear.png
+  url:         //waterbearlang.com
+  description: Waterbear is a toolkit for creating drag-and-drop
+               programming languages.
