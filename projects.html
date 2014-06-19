@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+---
+
+<p>Here is a list of big projects I have done or contributed to in the past.</p>
+
+<div class="clearfix">
+  {% for project in site.data.projects %}
+  <div class="project-item left">
+    <img src="/images/projects/{{ project.image }}" />
+    <a href="{{ project.url }}">{{ project.name }}</a>
+    <span>{{ project.description }}</span>
+  </div>
+  {% endfor %}
+</div>

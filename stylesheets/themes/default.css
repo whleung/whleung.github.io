@@ -1,0 +1,32 @@
+body {
+  background-color: #EEE;
+}
+
+#header {
+  background-color: #333;
+}
+
+#nav {
+  font-family: Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #666;
+  background-color: rgba(102, 102, 102, 0.5);
+}
+
+#content {
+  background-color: #FFF;
+}
+
+#footer {
+  border-top-color: #CCC;
+  border-top-style: solid;
+  color: #333;
+}
