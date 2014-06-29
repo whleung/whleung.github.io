@@ -3,3 +3,9 @@
   url:         //waterbearlang.com
   description: Waterbear is a toolkit for creating drag-and-drop
                programming languages.
+
+- name:        Autograder
+  url:         'http://www.auto-grader.com'
+  description: Autograder is a course management webapp that
+               facilitates UCSD instructors to grade programming
+               assignments automatically.
