@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="author" content="Wai Ho Leung">
     <title>{{ page.title }} - Wai Ho Leung</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/blueprint.css" media="screen" charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/layout.css" media="screen" charset="UTF-8" />
