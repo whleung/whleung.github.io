@@ -8,11 +8,11 @@ description: List of projects that Wai Ho Leung has done.
 
 <div class="clearfix">
   {% for project in site.data.projects %}
-  <div class="project-item left">
+  <div itemscope itemtype="http://schema.org/SoftwareApplication" class="project-item left">
     {% if project.image %}
-    <img src="/images/projects/{{ project.image }}" />
+    <img itemprop="image" src="/images/projects/{{ project.image }}" />
     {% endif %}
-    <a href="{{ project.url }}">{{ project.name }}</a>
+    <a href="{{ project.url }}"><span itemprop="name">{{ project.name }}</span></a>
     <span>{{ project.description }}</span>
   </div>
   {% endfor %}
