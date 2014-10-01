@@ -1,4 +1,4 @@
-#header {
+header {
     padding: 12px 0;
 }
 
@@ -20,7 +20,7 @@ nav a {
     padding: 16px 0;
 }
 
-#footer {
+footer {
     border-top-width: 1px;
     padding: 16px 0;
     text-align: center;
