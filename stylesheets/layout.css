@@ -30,7 +30,7 @@ footer {
     display: none;
 }
 
-.project-item {
+section.project {
     margin: 24px;
     border-width: 1px;
     padding: 24px;
@@ -39,11 +39,11 @@ footer {
     overflow: hidden;
 }
 
-.project-item > * {
+section.project > * {
     display: block;
 }
 
-.project-item > img {
+section.project > img {
     margin: auto;
     width: auto;
     height: auto;
@@ -51,7 +51,7 @@ footer {
     max-height: 128px;
 }
 
-.project-item a {
+section.project a {
     font-size: 1.25em;
     text-decoration: none;
 }
