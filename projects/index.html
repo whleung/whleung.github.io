@@ -6,14 +6,14 @@ description: List of projects that Wai Ho Leung has done.
 
 <p>Here is a list of big projects I have done or contributed to in the past.</p>
 
-<div class="clearfix">
+<div class="clearfix projects">
   {% for project in site.data.projects %}
   <section itemscope itemtype="http://schema.org/SoftwareApplication" class="project left">
     {% if project.image %}
     <img itemprop="image" src="/images/projects/{{ project.image }}" />
     {% endif %}
     <a href="{{ project.url }}"><span itemprop="name">{{ project.name }}</span></a>
-    <span>{{ project.description }}</span>
+    <p>{{ project.description }}</p>
   </section>
   {% endfor %}
 </div>
